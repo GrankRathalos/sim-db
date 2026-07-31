@@ -131,6 +131,17 @@ illuga add set="sms" count=5;
 illuga add stats hp=4780 atk=311 er=0.518 em=187 cr=0.311; #main
 illuga add stats def%=0.062*2 def=19.68*2 hp=253.94*2 hp%=0.0496*2 atk=16.54*2 atk%=0.0496*2 er=0.0551*6 em=19.82*10 cr=0.0331*4 cd=0.0662*8;
 
+== C0 INS ILLUGA ==
+
+illuga char lvl=90/90 cons=0 talent=9,9,9;
+illuga add weapon="favoniuslance" refine=3 lvl=90/90;
+illuga add set="instructor" count=4;
+// illuga add set="wt" count=2;
+// illuga add set="gd" count=2;
+illuga add set="eosf" count=1;
+illuga add stats hp=4780 atk=311 er=0.518 def%=0.435 cr=0.232;    // 5-star ER sands; capped KQMS ER here is ~277%
+illuga add stats def%=0.05208*2 def=16.5312*2 hp=213.31*2 hp%=0.041664*2 atk=13.8936*2 atk%=0.041664*2 er=0.046284*6 em=16.6488*2 cr=0.027804*10 cd=0.055608*2;
+
 == SAMPLE AINO ==
 
 aino char lvl=90/90 cons=6 talent=9,9,9;
@@ -156,6 +167,14 @@ gorou add set="exile" count=4;
 gorou add set="eosf" count=1;
 gorou add stats hp=4780 atk=311 er=0.518 def%=0.435 cr=0.232; 		// 5-star ER sands; capped KQMS ER here is ~277%
 gorou add stats def%=0.062*0.8*2 def=19.68*0.8*2 hp=253.94*0.8*2 hp%=0.0496*0.8*2 atk=16.54*0.8*2 atk%=0.0496*0.8*2 er=0.0551*0.8*10 em=19.82*0.8*2 cr=0.0331*2 cr=0.0331*0.8*8 cd=0.0662*0.8*6;		// 5* ER sands has KQMS cap of 2 CR rolls
+
+== SMS GOROU ==
+
+gorou char lvl=90/90 cons=6 talent=9,9,9;
+gorou add weapon="favbow" refine=5 lvl=90/90;
+gorou add set="sms" count=4;
+gorou add stats hp=4780 atk=311 er=0.518 def%=0.435 cr=0.232;
+gorou add stats def%=0.062*7 def=19.68*2 hp=253.94*2 hp%=0.0496*2 atk=16.54*2 atk%=0.0496*2 er=0.0551*7 em=19.82*2 cr=0.0331*12 cd=0.0662*2;
 
 == SAMPLE YUNJIN ==
 
