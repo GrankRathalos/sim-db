@@ -1,4 +1,4 @@
-// 22s rota, attempt at a normal gorou sim instead of linn EEEE
+// extended rota, attempt at a normal gorou sim instead of linn EEEE
 #by pkach
 
 noelle char lvl=90/90 cons=6 talent=9,9,9;
@@ -8,14 +8,14 @@ noelle add weapon="serpentspine" refine=1 lvl=90/90  +params=[stacks=5];
 noelle add set="notsu" count=4;
 # Main stats
 noelle add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cd=0.622;
-noelle add stats def%=0.062*6 def=19.68*2 hp=253.94*2 hp%=0.0496*2 atk=16.54*2 atk%=0.0496*2 er=0.0551*3 em=19.82*2 cr=0.0331*9 cd=0.0662*10;
+noelle add stats def%=0.062*2 def=19.68*2 hp=253.94*2 hp%=0.0496*2 atk=16.54*2 atk%=0.0496*2 er=0.0551*5 em=19.82*2 cr=0.0331*11 cd=0.0662*10;
 # Sub stats
 
-gorou char lvl=90/90 cons=4 talent=9,9,9;
-gorou add weapon="favbow" refine=4 lvl=90/90;
+gorou char lvl=90/90 cons=6 talent=9,9,9;
+gorou add weapon="favbow" refine=5 lvl=90/90;
 gorou add set="sms" count=4;
 gorou add stats hp=4780 atk=311 er=0.518 def%=0.435 cr=0.232;
-gorou add stats def%=0.05208*2 def=16.5312*2 hp=213.31*2 hp%=0.041664*2 atk=13.8936*2 atk%=0.041664*2 er=0.046284*6 em=16.6488*2 cr=0.027804*10 cd=0.055608*2;
+gorou add stats def%=0.062*7 def=19.68*2 hp=253.94*2 hp%=0.0496*2 atk=16.54*2 atk%=0.0496*2 er=0.0551*7 em=19.82*2 cr=0.0331*12 cd=0.0662*2;
 
 columbina char lvl=90/90 cons=0 talent=9,9,9;
 # Weapon
@@ -24,7 +24,7 @@ columbina add weapon="sacrificialjade" refine=1 lvl=90/90;
 columbina add set="aubade" count=4;
 # Main stats
 columbina add stats hp=4780 atk=311 hp%=0.466 em=186.5 cd=0.622;
-columbina add stats def%=0.062*2 def=19.68*2 hp=253.94*2 hp%=0.0496*10 atk=16.54*2 atk%=0.0496*2 er=0.0551*2 em=19.82*2 cr=0.0331*6 cd=0.0662*10;
+columbina add stats def%=0.062*2 def=19.68*2 hp=253.94*2 hp%=0.0496*9 atk=16.54*2 atk%=0.0496*2 er=0.0551*2 em=19.82*2 cr=0.0331*7 cd=0.0662*10;
 # Sub stats
 
 linnea char lvl=90/90 cons=0 talent=9,9,9;
@@ -34,7 +34,7 @@ linnea add weapon="slingshot" refine=5 lvl=90/90;
 linnea add set="aubade" count=4;
 # Main stats
 linnea add stats hp=4780 atk=311 def%=0.583 def%=0.583 cd=0.622;
-linnea add stats def%=0.062*5 def=19.68*2 hp=253.94*2 hp%=0.0496*2 atk=16.54*2 atk%=0.0496*2 er=0.0551*2 em=19.82*2 cr=0.0331*11 cd=0.0662*10;
+linnea add stats def%=0.062*4 def=19.68*2 hp=253.94*2 hp%=0.0496*2 atk=16.54*2 atk%=0.0496*2 er=0.0551*2 em=19.82*2 cr=0.0331*12 cd=0.0662*10;
 # Sub stats
 
 # Options
@@ -60,6 +60,6 @@ for let i = 0; i < 4; i = i + 1 {
   gorou attack, skill, burst;
   noelle skill, burst, attack:3, dash, attack:3;
   gorou attack, skill;
-  noelle attack:3, dash, attack:3, dash, attack:3;
+  noelle attack:3, dash, attack:3, dash, attack:3, dash, attack:2;
   
 }
