@@ -1,6 +1,5 @@
-// https://wfpsim.com/sh/a842200c-8c2a-4c0b-baac-128a184b4f06
-// 86.2k, distrib 44:25:24 noelle furi bina
-// noelle's lcrys damage is almost 50% of her total
+// distrib 44:25:24 noelle furi bina
+// the ratio of noelle's damage between talent and lcrys is skewed due to misattributed procs
 
 #honestly this is by antigua.
 #technically it's by pkach salvaging what he did a month earlier by mixing newer antigua sims
