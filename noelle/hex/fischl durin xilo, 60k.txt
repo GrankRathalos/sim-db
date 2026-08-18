@@ -1,3 +1,4 @@
+// https://gcsim.app/sh/kgzfD97rwgN7
 // ~24s rotation due to Fischl usage, shortening it often lowers DPS
 #by antigua
 
