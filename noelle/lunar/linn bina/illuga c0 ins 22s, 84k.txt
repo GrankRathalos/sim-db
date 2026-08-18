@@ -1,4 +1,4 @@
-// 22s rota; anti fixed subs + added fav and bumped it up by 4k
+// 22s rota, 2k less than SMS illu even at C0
 #by antigua
 
 noelle char lvl=90/90 cons=6 talent=9,9,9;
